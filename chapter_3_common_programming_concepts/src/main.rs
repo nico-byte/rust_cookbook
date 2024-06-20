@@ -26,29 +26,38 @@ fn main() {
     println!("The value of guess is {guess}");
 
     let x = 2.0; // f64
+    println!("The value of x is {x}");
     let x: f32 = 3.0; // f32
     print!("The value of x is {x}");
 
     // addition
     let sum = 5 + 10;
+    print!("The value of sum is {sum}");
 
     // subtraction
     let difference = 95.5 - 4.3;
+    println!("The value of difference is {difference}");
 
     // multiplication
     let product = 4 * 30;
+    println!("The value of product is {product}");
 
     // division
     let quotient = 56.7 / 32.2;
+    println!("The value of quotient is {quotient}");
     let truncated = -5 / 3; // Results in -1
+    println!("The value of truncated is {truncated}");
 
     // remainder
     let remainder = 43 % 5;
+    println!("The value of remainder is {remainder}");
 
     // Boolean
     let t = true;
+    print!("The value of t is {t}");
 
     let f: bool = false;
+    println!("The value of f is {f}");
 
     // Tuples
     // can hold multiple data types
@@ -61,10 +70,13 @@ fn main() {
     let x: (i32, f64, u8) = (500, 6.4, 1);
 
     let five_hundred = x.0;
+    println!("The value of five_hundred is: {five_hundred}");
 
     let six_point_four = x.1;
+    println!("The value of six_point_four is: {six_point_four}");
 
     let one = x.2;
+    println!("The value of one is: {one}");
 
     // Arrays
     // fixed size and one data type
