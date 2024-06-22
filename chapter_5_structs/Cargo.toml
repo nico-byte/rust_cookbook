@@ -1,7 +1,6 @@
 [package]
-name = "transformer"
+name = "chapter_5_structs"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tch = "0.16.0"
